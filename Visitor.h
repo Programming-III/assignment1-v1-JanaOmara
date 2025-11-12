@@ -12,7 +12,7 @@ using namespace std;
      Visitor(string vn, int t);
      void dispalyInfo();
      
-        
+        ~Visitor();
      
  };
  #endif
