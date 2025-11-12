@@ -17,6 +17,7 @@ class Bird : public Animal{
         
         Bird(float wing,string n, int a);
          void dispaly();
+~Bird();
     
 };
 
