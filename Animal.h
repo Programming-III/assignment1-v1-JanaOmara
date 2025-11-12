@@ -23,6 +23,7 @@ class Animal{
         int getage();
         void display();
         void feed();
+~Animal();
 };
 class Mammal : public Animal{
     private:
@@ -44,7 +45,7 @@ class Bird : public Animal{
         
         Bird(float wing,string n, int a);
          void dispaly();
-    
+    ~Bird();
 };
 class Reptile : public Animal {
     private:
@@ -56,7 +57,7 @@ class Reptile : public Animal {
     }
     Reptile(bool ven,string n, int a);
     void dispaly();
-    
+    ~Reptile();
 };
  #endif   
 
